@@ -15,7 +15,5 @@ export LC_MESSAGES=en_US.UTF-8
 unset LANGUAGE
 PS1='\[\e[1;32m\]\u@\h\[\e[0m\] \[\e[1;34m\]\w\[\e[0m\] \$ '
 
-. "$HOME/.local/bin/env"
-eval "$(starship init bash)"
-
-export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+[ -f "$HOME/.local/bin/env" ] && . "$HOME/.local/bin/env"
+command -v starship >/dev/null && eval "$(starship init bash)"

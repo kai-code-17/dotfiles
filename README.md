@@ -1,12 +1,13 @@
 
 ### Inhalt
-bash - kosmetische anpassungen für bash und setzt ssh socket variable
-starship - passt die terminal prompt an
-vscodium - config für vscodium, der vscode ersatz
-konsole - für die kde konsole
-ssh - ssh konfig für die verwaltung von mehreren keys
+- bash - kosmetische anpassungen für bash und setzt ssh socket variable
+- starship - passt die terminal prompt an
+- vscodium - config für vscodium, der vscode ersatz
+- konsole - für die kde konsole
+- ssh - ssh konfig für die verwaltung von mehreren keys
 
-###Installation
+### Installation
+
 ```stow --no-folding <paket>```
 
 ### git config
