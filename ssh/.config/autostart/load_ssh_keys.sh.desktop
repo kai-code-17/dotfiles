@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/home/Kai/.local/bin/load_ssh_keys.sh
+Icon=text-x-shellscript
+Name=load_ssh_keys.sh
+Type=Application
+X-KDE-AutostartScript=true

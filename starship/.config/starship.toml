@@ -1,0 +1,22 @@
+# Starship-Konfiguration – Doku: https://starship.rs/config/
+
+palette = "meine"
+
+[palettes.meine]
+klammer = "blue"
+at = "green"
+name = "green"
+doppelpunkt = "green"
+
+# Benutzername immer anzeigen (Standard: nur als root oder per SSH)
+[username]
+show_always = true
+style_user = "bold name"
+style_root = "bold red"
+format = '[\[](bold klammer)[$user]($style)'
+
+# Rechnername immer anzeigen (Standard: nur per SSH)
+[hostname]
+ssh_only = false
+style = "bold name"
+format = '[@](at)[$hostname]($style)[\]](bold klammer)[:](bold doppelpunkt) '
